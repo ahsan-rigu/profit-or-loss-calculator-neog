@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root{
+    --color-background:#22293d;
+    --color-accent:#ff5a3e;
+    --color-green: green;
+    --color-red: red;
+}
+
+body{
+    background-color: var(--color-background);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0rem;
+    margin: 0;
+    font-size: larger;
+}
+h1{
+    background-color: var(--color-accent);
+    width: 100%;
+    margin: 0rem auto;
+    font-weight: thin;
+    padding: .5rem;
+    box-shadow: var(--color-accent) 0px 1px 4px;
+    margin-bottom: 4rem;
+}
+
+label{
+    display: block;
+    padding: 1rem;
+}
+
+input{
+    display: block;
+    margin: .5rem auto;
+    background-color:#323a4d;
+    border: var(--color-accent) solid .1rem;
+    border-radius: .2rem;
+    font-size: larger;
+    }
+
+button{
+    background-color: var(--color-accent);
+    border-radius: .5rem;
+    font-size: large;
+    border: 0px;
+    padding: .4rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    cursor: pointer;
+
+
+    box-shadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+
+#output-message{
+    width: 90%;
+    max-width: 500px;
+    border: var(--color-accent) solid .1rem;
+    border-radius: .5rem;
+    margin: 2rem auto;
+    height: 3rem;
+
+}
