@@ -10,20 +10,19 @@
 body{
     background-color: var(--color-background);
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: var(--color-accent);
     text-align: center;
     padding: 0rem;
     margin: 0;
     font-size: larger;
 }
 h1{
-    background-color: var(--color-accent);
     width: 100%;
     margin: 0rem auto;
     font-weight: thin;
     padding: .5rem;
     box-shadow: var(--color-accent) 0px 1px 4px;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 label{
