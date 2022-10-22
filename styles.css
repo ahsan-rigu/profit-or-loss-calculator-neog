@@ -37,6 +37,10 @@ input{
     border: var(--color-accent) solid .1rem;
     border-radius: .2rem;
     font-size: larger;
+    color: var(--color-accent);
+    font-family: 'Roboto', sans-serif;
+    font-weight: thin;
+    padding-left: .5rem;
     }
 
 button{
@@ -61,5 +65,6 @@ button{
     border-radius: .5rem;
     margin: 2rem auto;
     height: 3rem;
+    padding-top: 1.5rem;
 
 }
