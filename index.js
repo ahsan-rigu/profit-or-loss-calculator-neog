@@ -26,7 +26,11 @@ function profitLossCalculator(price, quantity, current){
             outputMessage.textContent = "profit of " + profit + " or " + profitPercentage.toFixed(2) + "%";
             outputMessage.style.color = 'green';
             outputMessage.style.borderColor = 'green';
-        } else {outputMessage.textContent = "no profit no loss.."; }
+        } else {
+            outputMessage.textContent = "no profit no loss..";
+            outputMessage.style.color = 'grey';
+            outputMessage.style.borderColor =  'grey';
+         }
 
         }
      }
